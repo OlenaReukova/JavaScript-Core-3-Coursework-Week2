@@ -1,0 +1,26 @@
+img {
+  width: 200px;
+      height: 200px;
+      margin: 20px 20px;
+      box-shadow: 5px 10px 10px #5c5959;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  background-color: #13ea2c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
