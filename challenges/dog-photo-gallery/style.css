@@ -4,6 +4,19 @@ img {
       margin: 20px 20px;
       box-shadow: 5px 10px 10px #5c5959;
 }
+h1{
+    font-family: Archer,Georgia,Times,Serif;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    padding: 1rem 1rem;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+header{
+    position:relative;
+    text-align: center;
+    background-color: orange;
+}
 
 ul {
   display: flex;
@@ -13,14 +26,46 @@ ul {
 li {
   list-style: none;
 }
+#section-header{
+    display: flex;
+}
 
-button {
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.img-overlay {
   position: absolute;
-  top: 50%;
-  background-color: #13ea2c;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  padding: 20px;
+  top: 0;
+  bottom: 0;
+  left: 8%;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 36%;
+ 
+}
+#clickMe{
+    padding: 30px;
+  background-color: orange;
   font-size: 24px;
+  font-family: Archer,Georgia,Times,Serif;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+  transition: all 0.2s;
+}
+#clickMe:hover{
+    border-color: rgba(255,255,255,1);
 }
